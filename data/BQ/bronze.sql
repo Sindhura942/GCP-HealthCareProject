@@ -3,64 +3,64 @@
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.departments_ha` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-a-data/departments/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-a/departments/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.encounters_ha` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-a-data/encounters/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-a/encounters/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.patients_ha` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-a-data/patients/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-a/patients/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.providers_ha` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-a-data/providers/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-a/providers/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.transactions_ha` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-a-data/transactions/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-a/transactions/*.json']
 );
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.departments_hb` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-b-data/departments/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-b/departments/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.encounters_hb` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-b-data/encounters/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-b/encounters/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.patients_hb` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-b-data/patients/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-b/patients/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.providers_hb` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-b-data/providers/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-b/providers/*.json']
 );
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `hospitalproject-456516.bronze_dataset.transactions_hb` 
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://healthdatastorage-bucket-4112025/data/hospital-b-data/transactions/*.csv']
+  format = 'JSON',
+  uris = ['gs://healthdatastorage-bucket-4112025/landing/hospital-b/transactions/*.json']
 );
 
 ---------------------------------------------------------------------------------------------------------------------------
